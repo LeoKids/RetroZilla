@@ -4323,8 +4323,8 @@ suite)
   ;;
 
 browser)
-  MOZ_APP_NAME=rzbrowser
-  MOZ_APP_DISPLAYNAME="RetroZilla Browser"
+  MOZ_APP_NAME=Winternight
+  MOZ_APP_DISPLAYNAME="Winternight-Classic"
   MOZ_XUL_APP=1
   MOZ_PHOENIX=1
   MOZ_SAFE_BROWSING=1
