@@ -1,4 +1,4 @@
-# RetroZilla
+# Crescent-Vine
 
 Crescent-Vine is a fork of Gecko 1.8.1 for improved compatibility on the modern web, with Windows 95 and Windows NT 3.51 in mind. Right now, Crescent-Vine's rendering capabilities are pretty similar to RetroZilla 2.2, and Firefox 2.0's, but as Crescent-Vine progresses, so will its capabilities. Version 1.0 of 
 Crescent-Vine is slated for full ECMAScript 2009 compliance, and is due end of 2022/early 2023.
