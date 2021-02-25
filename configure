@@ -6444,7 +6444,7 @@ EOF
     BIN_SUFFIX='.exe'
     USE_SHORT_LIBNAME=1
     MOZ_ENABLE_POSTSCRIPT=
-    MOZ_USER_DIR="RetroZilla"
+    MOZ_USER_DIR="Winternight-Classic"
 
         TARGET_NSPR_MDCPUCFG='\"md/_win95.cfg\"'
 
@@ -6715,7 +6715,7 @@ EOF
     MOZ_ENABLE_POSTSCRIPT=
     RC=rc.exe
     RCFLAGS='-n'
-    MOZ_USER_DIR="RetroZilla"
+    MOZ_USER_DIR="Winternight-Classic"
 
     if test "$MOZTOOLS"; then
         MOZ_TOOLS_DIR=`echo $MOZTOOLS | sed -e 's|\\\\|/|g'`
@@ -12310,7 +12310,7 @@ mac|cocoa)
     TK_CFLAGS="-I${MACOS_SDK_DIR}/Developer/Headers/FlatCarbon"
     CFLAGS="$CFLAGS $TK_CFLAGS"
     CXXFLAGS="$CXXFLAGS $TK_CFLAGS"
-    MOZ_USER_DIR="RetroZilla"
+    MOZ_USER_DIR="Winternight-Classic"
     cat >> confdefs.h <<\EOF
 #define XP_MACOSX 1
 EOF
@@ -13397,7 +13397,7 @@ if test "${enable_official_branding+set}" = set; then
     case "$MOZ_BUILD_APP" in
 browser)
     MOZ_BRANDING_DIRECTORY=other-licenses/branding/firefox
-    MOZ_APP_DISPLAYNAME=RetroZilla
+    MOZ_APP_DISPLAYNAME=Winternight-Classic
     ;;
 
 calendar)
