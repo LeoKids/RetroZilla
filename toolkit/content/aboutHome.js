@@ -9,7 +9,7 @@ var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(
 
 var aboutHomeAutofocus = prefs.getBoolPref("rzHome.autofocus");
 var searchEngineURL = prefs.getCharPref("keyword.URL");
-var currentUsedVersion = prefs.getIntPref("retrozilla.version");
+var currentUsedVersion = prefs.getIntPref("Winternight-Classic.version");
 
 //check to see if custom search pref url exists
 var prefServiceBranch = Components.classes["@mozilla.org/preferences-service;1"]
@@ -36,7 +36,7 @@ function checkForUpdate() {
 		// add JS file with newest version # to page
 		var h = document.getElementsByTagName('head').item(0);
 		var newScript = document.createElement('script');
-		newScript.src = "https://raw.githubusercontent.com/rn10950/RetroZilla/master/update/currentReleaseVersion.js";
+		newScript.src = "https://raw.githubusercontent.com/ClassicNick/Crescent-Vine/Crescent-Vine/update/currentReleaseVersion.js";
 		h.appendChild(newScript);
 		// wait for script to load
 		setTimeout(function () {
@@ -52,7 +52,7 @@ function checkForUpdate() {
     img.onerror = function() {
         // not connected
     };
-    img.src = "https://raw.githubusercontent.com/rn10950/RetroZilla/master/update/ping.gif";
+    img.src = "https://raw.githubusercontent.com/ClassicNick/Crescent-Vine/Crescent-Vine/update/ping.gif";
 }
 
 // onload function (used to allow for autofocus)
