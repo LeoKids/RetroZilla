@@ -1,2 +1,2 @@
 #filter substitution
-pref("app.update.channel", "@MOZ_UPDATE_CHANNEL@");
+pref("app.update.channel", "https://github.com/ClassicNick/Crescent-Vine/releases/latest");

@@ -48,8 +48,8 @@
 #endif
 #endif
 
-// RetroZilla-Specific Preferences
-pref("retrozilla.version", 220);
+// Winternight-Classic-Specific Preferences
+pref("Winternight-Classic.version", 011);
 pref("rzHome.autofocus", true);
 
 
