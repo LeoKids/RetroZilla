@@ -151,7 +151,7 @@ pref("browser.forms.submit.backwards_compatible", true);
 
 // xxxbsmedberg more toolkit prefs?
 // Tab browser preferences.
-pref("browser.tabs.autoHide", true);
+pref("browser.tabs.autoHide", false);
 pref("browser.tabs.forceHide", false);
 pref("browser.tabs.warnOnClose", true);
 pref("browser.tabs.warnOnCloseOther", true);
