@@ -69,6 +69,8 @@ can be found at the preceding URL along with the releases themselves.
   RetroZilla, and instead use the current version of SeaMonkey or Firefox. 
   They are much more secure and compatible with the modern web than 
   RetroZilla is.
+  
+  For the case of Windows XP And Vista,The last version for them was 52.9.0ESR
 
 * We recommend that Windows 2000 users use Firefox 12 or SeaMonkey 2.9.
 
@@ -106,7 +108,7 @@ make sure you're running the installation with Administrator privileges.
    To install RetroZilla by downloading the RetroZilla installer,
    follow these steps:
 
-   1. Click the link to seamonkey-x.xx.en-US.win32.installer.exe (or
+   1. Click the link to retrozilla-x.xx.en-US.win32.installer.exe (or
       similar file name) on the site you're downloading RetroZilla from to
       download the installer file to your machine.
 
