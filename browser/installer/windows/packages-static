@@ -26,7 +26,6 @@ bin\defaults\profile\prefs.js
 bin\defaults\profile\search.rdf
 bin\defaults\profile\mimeTypes.rdf
 bin\defaults\profile\chrome\*
-bin\uninstall\helper.exe
 bin\updater.ini
 bin\dictionaries\*
 
@@ -44,7 +43,7 @@ bin\xpcom_compat.dll
 
 [browser]
 ; [Base Browser Files]
-bin\firefox.exe
+bin\Winternight.exe
 bin\plugins\npnul32.dll
 bin\res\cmessage.txt
 bin\xpicleanup.exe
@@ -314,6 +313,8 @@ bin\components\spellchk.dll
 ; [Personal Security Manager]
 ;
 bin\nssckbi.dll
+bin\nssutil3.dll
+bin\nssdbm3.dll
 bin\components\pipboot.xpt
 bin\components\pipnss.xpt
 bin\components\pippki.xpt
@@ -323,6 +324,7 @@ bin\softokn3.chk
 bin\softokn3.dll
 bin\freebl3.chk
 bin\freebl3.dll
+bin\sqlite3.dll
 bin\ssl3.dll
 bin\chrome\pipnss.jar
 bin\chrome\pippki.jar
