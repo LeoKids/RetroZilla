@@ -1,43 +1,46 @@
 ==========================================================================
 
-= = = = = = = = = = = = =  RetroZilla Read Me  = = = = = = = = = = = = = =
+= = = = = = = = = = = = =  Crescent-Vine Read Me  = = = = = = = = = = = = = =
 
 ==========================================================================
 
-RetroZilla is subject to the terms detailed in the license agreement
+Crescent-Vine is subject to the terms detailed in the license agreement
 accompanying it.
 
 This Read Me file contains information about system requirements and
-installation instructions for the Windows builds of RetroZilla.
+installation instructions for the Windows builds of Crescent-Vine.
 
-For more info on RetroZilla, see 
+For more info on Crescent-Vine, see 
 
-  https://rn10950.github.io/RetroZillaWeb/
+  https://github.com/ClassicNick/Crescent-Vine/
+  
+  Note: Requires TLS 1.2 support, so Firefox 2.0, and Retrozilla < 2.2 
+ cannot connect to GitHub.
 
 To submit bugs or other feedback, see the Navigator QA menu and check out
-GitHub at https://github.com/rn10950/RetroZilla for links to known bugs,
+GitHub at https://github.com/ClassicNick/Crescent-Vine/ for links to known bugs,
 bug-writing guidelines, and more. 
 
 
 ==========================================================================
 
-                          Getting RetroZilla
+                          Getting Crescent-Vine
 
 ==========================================================================
 
-You can download the source code of RetroZilla from the RetroZilla GitHub
+You can download the source code of Crescent-Vine from the Crescent-Vine GitHub
 at
 
-  https://github.com/rn10950/RetroZilla
+  https://github.com/ClassicNick/Crescent-Vine/
 
 Keep in mind that the source code in its raw form may be buggy. If you are
-looking for a more polished version of RetroZilla, the RetroZilla project 
-releases builds of RetroZilla regularly that you can download from
+looking for a more polished version of Crescent-Vine, the Crescent-Vine project 
+releases builds of Crescent-Vine regularly that you can download from
 
-  https://rn10950.github.io/RetroZillaWeb/
+  https://github.com/ClassicNick/Crescent-Vine/releases
  
-Be sure to read the RetroZilla release notes for information on known
-problems and installation issues with RetroZilla.  The release notes 
+Be sure to read the Crescent-Vine release notes for information on known
+problems and installation issues with Crescent-Vine.  The release notes 
 can be found at the preceding URL along with the releases themselves.
 
 
@@ -49,20 +52,16 @@ can be found at the preceding URL along with the releases themselves.
 
 *Windows
 
-   - Windows 95, 98, Me, NT4, 2000 or XP
+   - Windows 95, 98, Me, NT 3.51, NT4, 2000 or XP
    - Intel Pentium class processor (233 MHz or faster recommended)
    - 64 MB RAM
    - 26 MB free hard disk space
 
-* We recommend that Windows XP, Vista, 7, 8.x and 10 users not use 
-  RetroZilla, and instead use the current version of SeaMonkey or Firefox. 
-  They are much more secure and compatible with the modern web than 
-  RetroZilla is.
-
-* We recommend that Windows 2000 users use Firefox 12 or SeaMonkey 2.9.
-
-* We recommend that Windows 98 and Me users use Firefox 3.6 or SeaMonkey 
-  2.0.14 with the KernelEx platform.
+* We recommend that Windows 10 users not use 
+  Crescent-Vine, and instead use the current version of SeaMonkey or Firefox (Gecko 29+). 
+  They are much more secure, compatible with the modern web than 
+  Crescent-Vine, and Crescent-Vine is at high risk of not working on Windows 10. IME, 
+  Windows 8.1 and Crescent-Vine are fine.
 
 
 ==========================================================================
@@ -72,31 +71,31 @@ can be found at the preceding URL along with the releases themselves.
 ==========================================================================
 
 It is strongly recommended that you exit all programs before running the
-setup program. Also, you should temporarily disable virus-detection
+setup program if you have 64 MB RAM or less. Also, you should temporarily disable virus-detection
 software.
 
 Install into a clean (new) directory. Installing on top of previously
 released builds may cause problems.
 
-Note: These instructions do not tell you how to build RetroZilla.
-For info on building RetroZilla from the mozilla.org source code, see
+Note: These instructions do not tell you how to build Crescent-Vine.
+For info on building Crescent-Vine from the mozilla.org source code, see
 
-  https://rn10950.github.io/RetroZillaWeb/
+  https://github.com/ClassicNick/Crescent-Vine/
 
 
 Windows Installation Instructions
 ---------------------------------
 
 Note: For Windows NT/2000/XP systems, you need Administrator privileges to
-install RetroZilla. If you see an "Error 5" message during installation,
+install Crescent-Vine. If you see an "Error 5" message during installation,
 make sure you're running the installation with Administrator privileges.
 
 
-   To install RetroZilla by downloading the RetroZilla installer,
+   To install Crescent-Vine by downloading the Crescent-Vine installer,
    follow these steps:
 
-   1. Click the link to seamonkey-x.xx.en-US.win32.installer.exe (or
-      similar file name) on the site you're downloading RetroZilla from to
+   1. Click the link to Crescent-Vine-x.xx.en-US.win32.installer.exe (or
+      similar file name) on the site you're downloading Crescent-Vine from to
       download the installer file to your machine.
 
    2. Navigate to where you downloaded the file and double-click the
@@ -106,11 +105,11 @@ make sure you're running the installation with Administrator privileges.
       starts automatically the first time.
 
 
-   To install RetroZilla by downloading the .zip file and installing
+   To install Crescent-Vine by downloading the .zip file and installing
    manually, follow these steps:
 
-   1. Click the link to seamonkey-x.xx.en-US.win32.zip (or similar file
-      name) on the site you're downloading RetroZilla from to download the
+   1. Click the link to Crescent-Vine-x.xx.en-US.win32.zip (or similar file
+      name) on the site you're downloading Crescent-Vine from to download the
       .zip file to your machine.
 
    2. Navigate to where you downloaded the file and double-click the
@@ -122,7 +121,7 @@ make sure you're running the installation with Administrator privileges.
       www.winzip.com.
 
    3. Extract the .zip file to a directory such as
-        C:\Program Files\mozilla.org\RetroZilla.
+        C:\Program Files\Crescent-Vine\Winternight-Classic.
 
-   4. To start RetroZilla, navigate to the directory you extracted
-      RetroZilla to and double-click the seamonkey.exe icon.
+   4. To start Crescent-Vine, navigate to the directory you extracted
+      Crescent-Vine to and double-click the Winternight.exe icon.

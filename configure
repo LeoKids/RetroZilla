@@ -5098,7 +5098,7 @@ TARGET_MD_ARCH=unix
 DIRENT_INO=d_ino
 CYGWIN_WRAPPER=
 WIN_TOP_SRC=
-MOZ_USER_DIR=".retrozilla"
+MOZ_USER_DIR=".crescent-vine"
 HOST_AR='$(AR)'
 HOST_AR_FLAGS='$(AR_FLAGS)'
 
@@ -6001,7 +6001,7 @@ fi
     _WARNINGS_CXXFLAGS="${_WARNINGS_CXXFLAGS} -Wno-multichar"
     _MOZ_USE_RTTI=1
     USE_DEPENDENT_LIBS=
-    MOZ_USER_DIR="RetroZilla"
+    MOZ_USER_DIR="Crescent-Vine"
     ;;
 
 *-bsdi*)
@@ -6317,7 +6317,7 @@ EOF
     USE_SHORT_LIBNAME=1
     MOZ_ENABLE_COREXFONTS=
     MOZ_ENABLE_POSTSCRIPT=
-    MOZ_USER_DIR="RetroZilla"
+    MOZ_USER_DIR="Crescent-Vine"
 ;;
 
 
@@ -13091,8 +13091,8 @@ EOF
   ;;
 
 browser)
-  MOZ_APP_NAME=rzbrowser
-  MOZ_APP_DISPLAYNAME="RetroZilla Browser"
+  MOZ_APP_NAME=Winternight
+  MOZ_APP_DISPLAYNAME="Winternight-Classic"
   MOZ_XUL_APP=1
   MOZ_PHOENIX=1
   MOZ_SAFE_BROWSING=1
