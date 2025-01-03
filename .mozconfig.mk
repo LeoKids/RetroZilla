@@ -18,5 +18,3 @@ MOZ_OBJDIR=/c/projects/moz95/obj-sm95-release/
 # --enable-crypto is used by configure (not client.mk)
 # --enable-svg is used by configure (not client.mk)
 # --enable-canvas is used by configure (not client.mk)
-# --disable-activex is used by configure (not client.mk)
-# --disable-activex-scripting is used by configure (not client.mk)
